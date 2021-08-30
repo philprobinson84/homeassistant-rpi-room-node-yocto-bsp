@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <default sync-j="4" revision="dunfell"/>
+
+  <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
+  <remote fetch="https://github.com/openembedded" name="oe"/>
+  <remote fetch="https://github.com/agherzan/meta-raspberrypi" name="rpi"/>
+  <remote fetch="https://github.com/philprobinson84/meta-boxtreehomeassistant" name="boxtree"/>
+
+  <project remote="yocto" revision="refs/tags/dunfell-23.0.10" name="poky" path="sources/poky"/>
+  
+  <project remote="oe" revision="4a0d93d250576177e1237fa559f55c4f9d371809" name="meta-openembedded" path="sources/meta-openembedded"/>
+
+  <project remote="rpi" revision="59c2d6f7a8b1239bd7b587b9180c2a55f9c695a2" name="meta-raspberrypi" path="sources/meta-raspberrypi"/>
+
+  <project remote="boxtree" revision="e4e9e8f6e37b96d21ecd1e04eb85d23a89295654" name="meta-boxtreehomeassistant" path="sources/meta-boxtreehomeassistant"/>
+
+</manifest>
