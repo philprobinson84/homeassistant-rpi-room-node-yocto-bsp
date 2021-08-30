@@ -5,7 +5,7 @@
 
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <remote fetch="https://github.com/openembedded" name="oe"/>
-  <remote fetch="https://github.com/agherzan/meta-raspberrypi" name="rpi"/>
+  <remote fetch="https://github.com/agherzan" name="rpi"/>
   <remote fetch="https://github.com/philprobinson84" name="boxtree"/>
 
   <project remote="yocto" revision="refs/tags/dunfell-23.0.10" name="poky" path="sources/poky"/>
